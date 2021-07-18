@@ -15,7 +15,7 @@ void primeFactors(int n){
             x=i;
             while(n%x==0){
                 cout<<i<<" ";
-                x=x*i;
+                x*=i;
             }
         }
     }
